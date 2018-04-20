@@ -7,7 +7,7 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='gb18030')
 sourceFileName = "test.conv" #定义要分割的文件
 questionFileName = "./samples/question"
 answerFileName = "./samples/answer"
-result = 2000
+result = 10000
 
 def cutFile():
     print ("Reading...")

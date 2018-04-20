@@ -11,9 +11,9 @@ import jieba
 import random
 
 # 输入序列长度
-input_seq_len = 8
+input_seq_len = 5
 # 输出序列长度
-output_seq_len = 8
+output_seq_len = 5
 # 空值填充0
 PAD_ID = 0
 # 输出序列起始标记
@@ -21,11 +21,11 @@ GO_ID = 1
 # 结尾标记
 EOS_ID = 2
 # LSTM神经元size
-size = 15
+size = 8
 # 初始学习率
 init_learning_rate = 1
 # 在样本中出现频率超过这个值才会进入词表
-min_freq = 1
+min_freq = 5
 
 wordToken = word_token.WordToken()
 
